@@ -1,3 +1,5 @@
+package Lesson1.HW1;
+
 public class Comment {
     private int postId;
     private int id;
@@ -7,7 +9,7 @@ public class Comment {
 
     @Override
     public String toString() {
-        return "Comment{" +
+        return "Lesson1.HW1.Comment{" +
                 "postId=" + postId +
                 ", id=" + id +
                 ", name='" + name + '\'' +

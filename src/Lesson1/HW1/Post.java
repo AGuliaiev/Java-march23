@@ -1,3 +1,5 @@
+package Lesson1.HW1;
+
 public class Post {
     private int userId;
     private int id;
@@ -48,7 +50,7 @@ public class Post {
 
     @Override
     public String toString() {
-        return "Post{" +
+        return "Lesson1.HW1.Post{" +
                 "userId=" + userId +
                 ", id=" + id +
                 ", title='" + title + '\'' +

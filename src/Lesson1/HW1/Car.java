@@ -1,3 +1,5 @@
+package Lesson1.HW1;
+
 public class Car {
     private String model;
     private int power;
@@ -48,7 +50,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
+        return "Lesson1.HW1.Car{" +
                 "model='" + model + '\'' +
                 ", power=" + power +
                 ", volumeEngine=" + volumeEngine +

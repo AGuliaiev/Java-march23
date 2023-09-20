@@ -1,31 +1,33 @@
+package Lesson1.HW1;
+
 public class Main {
     public static void main(String[] args) {
-//        Book[] books = new Book[]{
-//                new Book("Book1", 200, new String[]{"author1", "author2"}, "horror"),
-//                new Book("Book2", 240, new String[]{"author1", "author2"}, "horror"),
-//                new Book("Book3", 300, new String[]{"author1", "author2"}, "horror"),
-//                new Book("Book4", 250, new String[]{"author1", "author2"}, "horror"),
-//                new Book("Book5", 500, new String[]{"author1", "author2"}, "horror"),
+//        Lesson1.HW1.Book[] books = new Lesson1.HW1.Book[]{
+//                new Lesson1.HW1.Book("Book1", 200, new String[]{"author1", "author2"}, "horror"),
+//                new Lesson1.HW1.Book("Book2", 240, new String[]{"author1", "author2"}, "horror"),
+//                new Lesson1.HW1.Book("Book3", 300, new String[]{"author1", "author2"}, "horror"),
+//                new Lesson1.HW1.Book("Book4", 250, new String[]{"author1", "author2"}, "horror"),
+//                new Lesson1.HW1.Book("Book5", 500, new String[]{"author1", "author2"}, "horror"),
 //        };
-//        Car[] cars = new Car[] {
-//                new Car("Audi", 200, 1.6, true),
-//                new Car("BMW", 150, 2.6, true),
-//                new Car("KIA", 102, 1.4, false),
-//                new Car("OKA", 50, 0.5, true),
-//                new Car("LADA", 50, 1.0, false),
+//        Lesson1.HW1.Car[] cars = new Lesson1.HW1.Car[] {
+//                new Lesson1.HW1.Car("Audi", 200, 1.6, true),
+//                new Lesson1.HW1.Car("BMW", 150, 2.6, true),
+//                new Lesson1.HW1.Car("KIA", 102, 1.4, false),
+//                new Lesson1.HW1.Car("OKA", 50, 0.5, true),
+//                new Lesson1.HW1.Car("LADA", 50, 1.0, false),
 //        };
-//        Dog[] dogs = new Dog[] {
-//                new Dog("max", 5, "retriever"),
-//                new Dog("bobik", 4, "retriever"),
+//        Lesson1.HW1.Dog[] dogs = new Lesson1.HW1.Dog[] {
+//                new Lesson1.HW1.Dog("max", 5, "retriever"),
+//                new Lesson1.HW1.Dog("bobik", 4, "retriever"),
 //        };
 //
-//        for (Book book: books) {
+//        for (Lesson1.HW1.Book book: books) {
 //            System.out.println(book);
 //        }
-//        for (Car car : cars) {
+//        for (Lesson1.HW1.Car car : cars) {
 //            System.out.println(car);
 //        }
-//        for (Dog dog : dogs) {
+//        for (Lesson1.HW1.Dog dog : dogs) {
 //            System.out.println(dog);
 //        }
         Post[] posts = new Post[]{

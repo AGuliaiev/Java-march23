@@ -1,3 +1,5 @@
+package Lesson1.HW1;
+
 public class Dog {
     private String name;
     private int age;
@@ -38,7 +40,7 @@ public class Dog {
 
     @Override
     public String toString() {
-        return "Dog{" +
+        return "Lesson1.HW1.Dog{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", breed='" + breed + '\'' +

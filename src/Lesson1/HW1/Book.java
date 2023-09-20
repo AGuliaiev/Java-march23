@@ -1,3 +1,5 @@
+package Lesson1.HW1;
+
 import java.util.Arrays;
 
 public class Book {
@@ -41,7 +43,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "Lesson1.HW1.Book{" +
                 "title='" + title + '\'' +
                 ", pages=" + pages +
                 ", Authors=" + Arrays.toString(Authors) +
