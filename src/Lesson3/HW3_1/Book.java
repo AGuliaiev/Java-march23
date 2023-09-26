@@ -1,6 +1,8 @@
 package Lesson3.HW3_1;
 
 public class Book implements Printable {
+    private int pages;
+    private String author;
     public Book(int pages, String author) {
         this.pages = pages;
         this.author = author;
@@ -25,8 +27,7 @@ public class Book implements Printable {
         this.author = author;
     }
 
-    private int pages;
-    private String author;
+
 
     @Override
     public void print() {
