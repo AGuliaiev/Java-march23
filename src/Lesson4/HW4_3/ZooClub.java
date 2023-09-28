@@ -33,9 +33,10 @@ public class ZooClub {
         club.remove(person);
     }
 
-    public void removePetFromAllMembers(Pet pet) {
-        club.values().forEach(pets -> pets.removeIf(p -> p.equals(pet)));
+    public void removePetFromAllMembers(String view) {
+        club.values().forEach(pets -> pets.removeIf(pet -> pet.getView().equals(view)));
     }
+
 
     public void printClub() {
         club.forEach((person, pets) -> {
