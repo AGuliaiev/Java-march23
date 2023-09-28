@@ -47,7 +47,7 @@ public class Main {
         System.out.println("\nZoo Club after adding a parrot to Alice:");
         zooClub.printClub();
 
-        zooClub.removePetFromAllMembers("");
+        zooClub.removePetFromAllMembers("Cat");
 
 
         System.out.println("\nZoo Club after removing all pets of the same view: ");
