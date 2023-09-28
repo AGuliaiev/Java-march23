@@ -3,9 +3,9 @@ package Lesson4.HW4_2;
 
 
 import java.util.ArrayList;
-import java.util.Objects;
 
-public class User {
+
+public class User implements Comparable<User> {
     private int id;
     private String name;
     private String surname;
@@ -88,35 +88,6 @@ public class User {
         this.car = car;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        User user = (User) o;
-
-        if (id != user.id) return false;
-        if (age != user.age) return false;
-        if (!Objects.equals(name, user.name)) return false;
-        if (!Objects.equals(surname, user.surname)) return false;
-        if (!Objects.equals(email, user.email)) return false;
-        if (gender != user.gender) return false;
-        if (!skills.equals(user.skills)) return false;
-        return Objects.equals(car, user.car);
-    }
-
-    @Override
-    public int hashCode() {
-        int result = id;
-        result = 31 * result + (name != null ? name.hashCode() : 0);
-        result = 31 * result + (surname != null ? surname.hashCode() : 0);
-        result = 31 * result + (email != null ? email.hashCode() : 0);
-        result = 31 * result + age;
-        result = 31 * result + (gender != null ? gender.hashCode() : 0);
-        result = 31 * result + skills.hashCode();
-        result = 31 * result + (car != null ? car.hashCode() : 0);
-        return result;
-    }
 
     @Override
     public String toString() {
@@ -130,5 +101,12 @@ public class User {
                 ", skills=" + skills +
                 ", car=" + car +
                 '}';
+    }
+
+
+    @Override
+    public int compareTo(User o) {
+        return Integer.compare(this.skills.size(), o.getSkills().size());
+
     }
 }
